@@ -1,5 +1,8 @@
 # vuejs-fetching-api
 
+## Fetching API from Express.js API
+Restful API : https://github.com/krisdewa/express-api
+
 ## Project setup
 ```
 npm install
