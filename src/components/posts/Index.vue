@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-custom">
+    <div class="container mt-custom mb-5">
         <div class="row">
             <div class="col-md-12">
                 <div class="card border-0 rounded shadow">
@@ -36,14 +36,20 @@
             </div>
         </div>
     </div>
+    <footer-vue class="fixed-bottom" />
 </template>
 
 <script>
 import axios from 'axios'
 import { onMounted, ref } from 'vue'
 
+import FooterVue from '../posts/Footer.vue'
+
 export default {
     name: 'IndexPosts',
+    components: {
+        FooterVue
+    },
     setup() {
 
         //reactive state

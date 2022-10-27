@@ -1,16 +1,16 @@
 <template>
     <main class="container mt-custom">
         <div class="bg-light p-5 rounded">
-            <h1>EXPRESS.JS + VUE.JS</h1>
-            <p class="lead">Express.js dan Vue.js oleh <strong>KrisDewa</strong></p>
-            <a class="btn btn-lg btn-primary" href="#" target="_blank" role="button">SELENGKAPNYA</a>
+            <h1>Hello 👋</h1>
+            <p class="lead">Vue.js Fetch API from Express.JS oleh <strong>KrisDewa</strong></p>
+            <a class="btn btn-dark mt-2" href="https://krisproject.my.id" target="_blank" role="button">SELENGKAPNYA</a>
         </div>
     </main>
 </template>
 
 <script>
 export default {
-    name: 'IndexVue'
+    name: 'IndexVue',
 }
 </script>
 
